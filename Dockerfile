@@ -34,7 +34,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # environment variables
 ENV \
-        BPX_ROOT=/root/.bpx/mainnet \
+        CHIA_ROOT=/root/.bpx/mainnet \
         farmer_address= \
         farmer_port= \
         keys="generate" \
